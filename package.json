@@ -1,8 +1,8 @@
 {
   "name": "bing-image-downloader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Web scraper for bing image creator",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "bin": {
     "download-bing-images": "./build/bin/download-images.mjs"
   },

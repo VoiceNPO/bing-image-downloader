@@ -1,6 +1,6 @@
 {
   "name": "bing-image-downloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Web scraper for bing image creator",
   "main": "dist/index.js",
   "bin": {

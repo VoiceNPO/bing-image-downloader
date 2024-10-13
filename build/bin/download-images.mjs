@@ -2,6 +2,7 @@
 import { resolve } from 'path';
 import { downloadImages, setCookie, setLogLevel } from '../index.js';
 import { exists } from '../utils/fs.js';
+import { log } from '../log.js';
 const cookie = process.env.npm_config_cookie || process.env.BING_COOKIE;
 const logLevel = Number(process.env.npm_config_log_level) || 2;
 const instructions = `Usage: npx exec download-images "Your Image Prompt" "/path/to/save/images/to"
@@ -27,7 +28,7 @@ if (!(await exists(resolvedDirectory))) {
 setLogLevel(logLevel);
 setCookie(cookie);
 const imagePaths = await downloadImages(prompt, resolvedDirectory);
-console.log(`downloaded ${imagePaths.length} to the following files: \n${imagePaths.join('\n')}`);
+log(`downloaded ${imagePaths.length} to the following files: \n${imagePaths.join('\n')}`, 2);
 function throwMsg(msg) {
     console.error(msg);
     return process.exit();

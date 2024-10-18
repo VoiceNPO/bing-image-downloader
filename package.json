@@ -1,6 +1,6 @@
 {
   "name": "bing-image-downloader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Web scraper for bing image creator",
   "main": "build/index.js",
   "bin": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VoiceNPO/bing-image-downloader.git"
+    "url": "git+https://github.com/a-non-a-mouse/bing-image-downloader.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VoiceNPO/bing-image-downloader/issues"
+    "url": "https://github.com/a-non-a-mouse/bing-image-downloader/issues"
   },
-  "homepage": "https://github.com/VoiceNPO/bing-image-downloader#readme",
+  "homepage": "https://github.com/a-non-a-mouse/bing-image-downloader#readme",
   "devDependencies": {
     "@types/node": "^22.7.5",
     "prettier": "^3.3.3",
